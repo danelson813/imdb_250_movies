@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "projectName"
+version = "0.1.0"
+description = ""
+authors = ["Dan Nelson <danelson@nwi.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyyaml = "^6.0"
+selenium = "^4.8.0"
+bs4 = "^0.0.1"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
